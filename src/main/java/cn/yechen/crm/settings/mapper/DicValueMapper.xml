@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.yechen.crm.settings.mapper.DicValueMapper" >
+
+  <sql id="Base_Column_List" >
+    id, value, text, orderNo, typeCode
+  </sql>
+
+  <select id="getListByTypeCode" resultType="cn.yechen.crm.settings.domain.DicValue">
+    select *
+    from tbl_dic_value
+    where typeCode = #{typeCode}
+    order by orderNo;
+  </select>
+</mapper>

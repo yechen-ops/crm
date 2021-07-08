@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/settings/mapper/DicTypeMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/settings/mapper/DicValueMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/settings/mapper/UserMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/workbench/mapper/ActivityMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/workbench/mapper/ActivityRemarkMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/workbench/mapper/ClueActivityRelationMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/workbench/mapper/ClueMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/workbench/mapper/ClueRemarkMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/workbench/mapper/ContactsActivityRelationMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/workbench/mapper/ContactsMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/workbench/mapper/ContactsRemarkMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/workbench/mapper/CustomerMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/workbench/mapper/CustomerRemarkMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/workbench/mapper/TranHistoryMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/yechen/crm/workbench/mapper/TranMapper.xml" dialect="GenericSQL" />
+  </component>
+</project>

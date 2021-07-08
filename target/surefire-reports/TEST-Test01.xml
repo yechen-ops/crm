@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="Test01" time="1.095" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="2020.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Environmental\JDK8.0\jre\bin"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\30117\Desktop\crm项目\crm"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\30117\Desktop\crm项目\crm"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Environmental\JDK8.0\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\30117\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\Software\Installation\IntelliJ IDEA 2020.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="archetypeCatalog" value="internal"/>
+    <property name="classworlds.conf" value="D:\Environmental\Maven\apache-maven-3.6.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Environmental\JDK8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\short;D:\Code\Gradle\distributions_gradle-6.5-all\gradle-6.5\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;D:\Software\Installation\CodeBlocks\MinGW\bin;D:\Software\Installation\MATLAB\R2018a\runtime\win64;D:\Software\Installation\MATLAB\R2018a\bin;D:\Software\快捷方式;C:\;rogram Files\Pandoc\;D:\Software\Installation\nodejs\;D:\Software\Installation\nodejs\node_global;D:\Environmental\JDK8.0\bin;D:\Environmental\Maven\apache-maven-3.6.3\bin;D:\Environmental\Tomcat\apache-tomcat-9.0.41\bin;D:\Software\Installation\NetSarang\Xshell 7\;D:\Software\Installation\NetSarang\Xftp 7\;D:\Software\Installation\Tesseract-OCR;D:\Environmental\Go\bin;D:\Environmental\Git\cmd;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Users\30117\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\30117\AppData\Local\Programs\Python\Python38\;C:\Users\30117\AppData\Local\Microsoft\WindowsApps;D:\Software\Installation\Microsoft VS Code\bin;D:\Software\Installation\PyCharm Community Edition 2020.2.1\bin;;D:\Software\Installation\IntelliJ IDEA Community Edition 2020.2.1\bin;;%DevEco Studio%;D:\Software\Installation\CLion 2020.2.1\bin;;D:\Software\Installation\PyCharm 2020.2.1\bin;;C:\Users\30117\AppData\Local\GitHubDesktop\bin;C:\Users\30117\AppData\Roaming\npm;C:\Users\30117\go\bin;;."/>
+    <property name="maven.conf" value="D:\Environmental\Maven\apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\Environmental\Maven\apache-maven-3.6.3\maven-repo"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\30117"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="30117"/>
+    <property name="java.class.path" value="D:\Environmental\Maven\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;D:\Environmental\Maven\apache-maven-3.6.3\boot\plexus-classworlds.license;D:\Software\Installation\IntelliJ IDEA 2020.3\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Environmental\JDK8.0\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3 -s D:\Environmental\Maven\apache-maven-3.6.3\conf\settings.xml -Dmaven.repo.local=D:\Environmental\Maven\apache-maven-3.6.3\maven-repo package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="java.ext.dirs" value="D:\Environmental\JDK8.0\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Environmental\JDK8.0\jre\lib\resources.jar;D:\Environmental\JDK8.0\jre\lib\rt.jar;D:\Environmental\JDK8.0\jre\lib\sunrsasign.jar;D:\Environmental\JDK8.0\jre\lib\jsse.jar;D:\Environmental\JDK8.0\jre\lib\jce.jar;D:\Environmental\JDK8.0\jre\lib\charsets.jar;D:\Environmental\JDK8.0\jre\lib\jfr.jar;D:\Environmental\JDK8.0\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Environmental\Maven\apache-maven-3.6.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Test01" name="Test3" time="0.357"/>
+  <testcase classname="Test01" name="Test4" time="0.736">
+    <error message="
+### Error querying database.  Cause: java.sql.SQLException: Access denied for user &apos;root&apos;@&apos;localhost&apos; (using password: YES)
+### The error may exist in cn/yechen/crm/workbench/mapper/ActivityMapper.xml
+### The error may involve cn.yechen.crm.workbench.mapper.ActivityMapper.getActivityListByNameAndAIds
+### The error occurred while executing a query
+### Cause: java.sql.SQLException: Access denied for user &apos;root&apos;@&apos;localhost&apos; (using password: YES)" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.sql.SQLException: Access denied for user &apos;root&apos;@&apos;localhost&apos; (using password: YES)
+### The error may exist in cn/yechen/crm/workbench/mapper/ActivityMapper.xml
+### The error may involve cn.yechen.crm.workbench.mapper.ActivityMapper.getActivityListByNameAndAIds
+### The error occurred while executing a query
+### Cause: java.sql.SQLException: Access denied for user &apos;root&apos;@&apos;localhost&apos; (using password: YES)
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy5.getActivityListByNameAndAIds(Unknown Source)
+	at cn.yechen.crm.workbench.service.impl.ActivityServiceImpl.getActivityListByNameAndAIds(ActivityServiceImpl.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cn.yechen.crm.utils.TransactionInvocationHandler.invoke(TransactionInvocationHandler.java:30)
+	at com.sun.proxy.$Proxy7.getActivityListByNameAndAIds(Unknown Source)
+	at Test01.Test4(Test01.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.sql.SQLException: Access denied for user &apos;root&apos;@&apos;localhost&apos; (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:925)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1704)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1250)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2498)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2283)
+	at com.mysql.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:822)
+	at com.mysql.jdbc.JDBC4Connection.&lt;init&gt;(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:404)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:317)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.doGetConnection(UnpooledDataSource.java:201)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.doGetConnection(UnpooledDataSource.java:196)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.getConnection(UnpooledDataSource.java:93)
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:404)
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.getConnection(PooledDataSource.java:90)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:139)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.getConnection(JdbcTransaction.java:61)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	... 42 more
+</error>
+    <system-out>DEBUG [main] - Logging initialized using &apos;class org.apache.ibatis.logging.log4j.Log4jImpl&apos; adapter.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] - Class not found: org.jboss.vfs.VFS
+DEBUG [main] - JBoss 6 VFS API is not available in this environment.
+DEBUG [main] - Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper
+DEBUG [main] - Reader entry: DicTypeMapper.class
+DEBUG [main] - Reader entry: DicTypeMapper.xml
+DEBUG [main] - Reader entry: DicValueMapper.class
+DEBUG [main] - Reader entry: DicValueMapper.xml
+DEBUG [main] - Reader entry: UserMapper.class
+DEBUG [main] - Reader entry: UserMapper.xml
+DEBUG [main] - Listing file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper/DicTypeMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper/DicTypeMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#11;&amp;#7;&amp;#0;	&amp;#7;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper/DicTypeMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper/DicTypeMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper/DicValueMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper/DicValueMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#11;&amp;#7;&amp;#0;	&amp;#7;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper/DicValueMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper/DicValueMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper/UserMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper/UserMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#18;&amp;#7;&amp;#0;&amp;#16;&amp;#7;&amp;#0;&amp;#17;&amp;#1;&amp;#0;&amp;#7;getUser&amp;#1;&amp;#0;J(Ljava/lang/String;Ljava/lang/String;)Lcn/yechen/crm/settings/domain/User;&amp;#1;&amp;#0;&quot;RuntimeVisibleParameterAnnotations&amp;#1;&amp;#0;%Lorg/apache/ibatis/annotations/Param;&amp;#1;&amp;#0;&amp;#5;value&amp;#1;&amp;#0;&amp;#8;loginAct&amp;#1;&amp;#0;&amp;#8;loginPwd&amp;#1;&amp;#0;&amp;#11;getUserList&amp;#1;&amp;#0;&amp;#18;()Ljava/util/List;&amp;#1;&amp;#0;	Signature&amp;#1;&amp;#0;8()Ljava/util/List&lt;Lcn/yechen/crm/settings/domain/User;&gt;;&amp;#1;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper/UserMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/settings/mapper/UserMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Checking to see if class cn.yechen.crm.settings.mapper.DicTypeMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.settings.mapper.DicValueMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.settings.mapper.UserMapper matches criteria [is assignable to Object]
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper
+DEBUG [main] - Reader entry: ActivityMapper.class
+DEBUG [main] - Reader entry: ActivityMapper.xml
+DEBUG [main] - Reader entry: ActivityRemarkMapper.class
+DEBUG [main] - Reader entry: ActivityRemarkMapper.xml
+DEBUG [main] - Reader entry: ClueActivityRelationMapper.class
+DEBUG [main] - Reader entry: ClueActivityRelationMapper.xml
+DEBUG [main] - Reader entry: ClueMapper.class
+DEBUG [main] - Reader entry: ClueMapper.xml
+DEBUG [main] - Reader entry: ClueRemarkMapper.class
+DEBUG [main] - Reader entry: ClueRemarkMapper.xml
+DEBUG [main] - Reader entry: ContactsActivityRelationMapper.class
+DEBUG [main] - Reader entry: ContactsActivityRelationMapper.xml
+DEBUG [main] - Reader entry: ContactsMapper.class
+DEBUG [main] - Reader entry: ContactsMapper.xml
+DEBUG [main] - Reader entry: ContactsRemarkMapper.class
+DEBUG [main] - Reader entry: ContactsRemarkMapper.xml
+DEBUG [main] - Reader entry: CustomerMapper.class
+DEBUG [main] - Reader entry: CustomerMapper.xml
+DEBUG [main] - Reader entry: CustomerRemarkMapper.class
+DEBUG [main] - Reader entry: CustomerRemarkMapper.xml
+DEBUG [main] - Reader entry: TranHistoryMapper.class
+DEBUG [main] - Reader entry: TranHistoryMapper.xml
+DEBUG [main] - Reader entry: TranMapper.class
+DEBUG [main] - Reader entry: TranMapper.xml
+DEBUG [main] - Reader entry: TranRemarkMapper.class
+DEBUG [main] - Reader entry: TranRemarkMapper.xml
+DEBUG [main] - Listing file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ActivityMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ActivityMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;$&amp;#7;&amp;#0;&quot;&amp;#7;&amp;#0;#&amp;#1;&amp;#0;&amp;#12;saveActivity&amp;#1;&amp;#0;,(Lcn/yechen/crm/workbench/domain/Activity;)I&amp;#1;&amp;#0;&amp;#25;getTotalCountByConditions&amp;#1;&amp;#0;&amp;#18;(Ljava/util/Map;)I&amp;#1;&amp;#0;	Signature&amp;#1;&amp;#0;8(Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;)I&amp;#1;&amp;#0;&amp;#25;getActivitiesByConditions&amp;#1;&amp;#0;!(Ljava/util/Map;)Ljava/util/List;&amp;#1;&amp;#0;r(Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;)Ljava/util/List&lt;Lcn/yechen/crm/workbench/domain/Activity;&gt;;&amp;#1;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ActivityMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ActivityMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ActivityRemarkMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ActivityRemarkMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#19;&amp;#7;&amp;#0;&amp;#17;&amp;#7;&amp;#0;&amp;#18;&amp;#1;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ActivityRemarkMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ActivityRemarkMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ClueActivityRelationMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ClueActivityRelationMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#17;&amp;#7;&amp;#0;&amp;#15;&amp;#7;&amp;#0;&amp;#16;&amp;#1;&amp;#0;&amp;#18;deleteRelationById&amp;#1;&amp;#0;&amp;#21;(Ljava/lang/String;)I&amp;#1;&amp;#0;&amp;#15;getAIdsByClueId&amp;#1;&amp;#0;$(Ljava/lang/String;)Ljava/util/List;&amp;#1;&amp;#0;	Signature&amp;#1;&amp;#0;8(Ljava/lang/String;)Ljava/util/List&lt;Ljava/lang/String;&gt;;&amp;#1;&amp;#0;&amp;#12;saveRelation&amp;#1;&amp;#0;8(Lcn/yechen/crm/workbench/domain/ClueActivityRelation;)I&amp;#1;&amp;#0;&amp;#22;deleteRelationByClueId&amp;#1;&amp;#0;&amp;#14;getNumByClueId&amp;#1;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ClueActivityRelationMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ClueActivityRelationMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ClueMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ClueMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#22;&amp;#7;&amp;#0;&amp;#20;&amp;#7;&amp;#0;&amp;#21;&amp;#1;&amp;#0;&amp;#8;saveClue&amp;#1;&amp;#0;((Lcn/yechen/crm/workbench/domain/Clue;)I&amp;#1;&amp;#0;&amp;#25;getTotalCountByConditions&amp;#1;&amp;#0;&amp;#18;(Ljava/util/Map;)I&amp;#1;&amp;#0;	Signature&amp;#1;&amp;#0;8(Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;)I&amp;#1;&amp;#0;&amp;#20;getCluesByConditions&amp;#1;&amp;#0;!(Ljava/util/Map;)Ljava/util/List;&amp;#1;&amp;#0;n(Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;)Ljava/util/List&lt;Lcn/yechen/crm/workbench/domain/Clue;&gt;;&amp;#1;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ClueMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ClueMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ClueRemarkMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ClueRemarkMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#14;&amp;#7;&amp;#0;&amp;#12;&amp;#7;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ClueRemarkMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ClueRemarkMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ContactsActivityRelationMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ContactsActivityRelationMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;	&amp;#7;&amp;#0;&amp;#7;&amp;#7;&amp;#0;&amp;#8;&amp;#1;&amp;#0;&amp;#4;save&amp;#1;&amp;#0;&lt;(Lcn/yechen/crm/workbench/domain/ContactsActivityRelation;)I&amp;#1;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ContactsActivityRelationMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ContactsActivityRelationMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ContactsMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ContactsMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#17;&amp;#7;&amp;#0;&amp;#15;&amp;#7;&amp;#0;&amp;#16;&amp;#1;&amp;#0;&amp;#4;save&amp;#1;&amp;#0;,(Lcn/yechen/crm/workbench/domain/Contacts;)I&amp;#1;&amp;#0;&amp;#25;getContactsListByFullName&amp;#1;&amp;#0;$(Ljava/lang/String;)Ljava/util/List;&amp;#1;&amp;#0;	Signature&amp;#1;&amp;#0;O(Ljava/lang/String;)Ljava/util/List&lt;Lcn/yechen/crm/workbench/domain/Contacts;&gt;;&amp;#1;&amp;#0;&quot;RuntimeVisibleParameterAnnotations&amp;#1;&amp;#0;%Lorg/apache/ibatis/annotations/Param;&amp;#1;&amp;#0;&amp;#5;value&amp;#1;&amp;#0;&amp;#8;fullName&amp;#1;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ContactsMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ContactsMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ContactsRemarkMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ContactsRemarkMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;	&amp;#7;&amp;#0;&amp;#7;&amp;#7;&amp;#0;&amp;#8;&amp;#1;&amp;#0;&amp;#4;save&amp;#1;&amp;#0;2(Lcn/yechen/crm/workbench/domain/ContactsRemark;)I&amp;#1;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ContactsRemarkMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/ContactsRemarkMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/CustomerMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/CustomerMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#21;&amp;#7;&amp;#0;&amp;#19;&amp;#7;&amp;#0;&amp;#20;&amp;#1;&amp;#0;&amp;#17;getCustomerByName&amp;#1;&amp;#0;=(Ljava/lang/String;)Lcn/yechen/crm/workbench/domain/Customer;&amp;#1;&amp;#0;&quot;RuntimeVisibleParameterAnnotations&amp;#1;&amp;#0;%Lorg/apache/ibatis/annotations/Param;&amp;#1;&amp;#0;&amp;#5;value&amp;#1;&amp;#0;&amp;#12;customerName&amp;#1;&amp;#0;&amp;#4;save&amp;#1;&amp;#0;,(Lcn/yechen/crm/workbench/domain/Customer;)I&amp;#1;&amp;#0;&amp;#19;getCustomerNameList&amp;#1;&amp;#0;$(Ljava/lang/String;)Ljava/util/List;&amp;#1;&amp;#0;	Signature&amp;#1;&amp;#0;8(Ljava/lang/String;)Ljava/util/List&lt;Ljava/lang/String;&gt;;&amp;#1;&amp;#0;&amp;#11;getIdByName&amp;#1;&amp;#0;&amp;(Ljava/lang/String;)Ljava/lang/String;&amp;#1;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/CustomerMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/CustomerMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/CustomerRemarkMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/CustomerRemarkMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;	&amp;#7;&amp;#0;&amp;#7;&amp;#7;&amp;#0;&amp;#8;&amp;#1;&amp;#0;&amp;#4;save&amp;#1;&amp;#0;2(Lcn/yechen/crm/workbench/domain/CustomerRemark;)I&amp;#1;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/CustomerRemarkMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/CustomerRemarkMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/TranHistoryMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/TranHistoryMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/TranHistoryMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/TranHistoryMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/TranMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/TranMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#26;&amp;#7;&amp;#0;&amp;#24;&amp;#7;&amp;#0;&amp;#25;&amp;#1;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/TranMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/TranMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/TranRemarkMapper.class
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/TranRemarkMapper.class
+DEBUG [main] - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#16;&amp;#7;&amp;#0;&amp;#14;&amp;#7;&amp;#0;&amp;#15;&amp;#1;&amp;#0;&amp;#18;deleteByPrimaryKey&amp;#1;&amp;#0;&amp;#21;(Ljava/lang/String;)I&amp;#1;&amp;#0;&amp;#6;insert&amp;#1;&amp;#0;.(Lcn/yechen/crm/workbench/domain/TranRemark;)I&amp;#1;&amp;#0;&amp;#15;insertSelective&amp;#1;&amp;#0;&amp;#18;selectByPrimaryKey&amp;#1;&amp;#0;?(Ljava/lang/String;)Lcn/yechen/crm/workbench/domain/TranRemark;&amp;#1;&amp;#0;&amp;#27;updateByPrimaryKeySelective&amp;#1;&amp;#0;&amp;#18;updateByPrimaryKey&amp;#1;&amp;#0;
+DEBUG [main] - Find JAR URL: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/TranRemarkMapper.xml
+DEBUG [main] - Not a JAR: file:/C:/Users/30117/Desktop/crm%e9%a1%b9%e7%9b%ae/crm/target/classes/cn/yechen/crm/workbench/mapper/TranRemarkMapper.xml
+DEBUG [main] - Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.ActivityMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.ActivityRemarkMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.ClueActivityRelationMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.ClueMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.ClueRemarkMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.ContactsActivityRelationMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.ContactsMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.ContactsRemarkMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.CustomerMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.CustomerRemarkMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.TranHistoryMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.TranMapper matches criteria [is assignable to Object]
+DEBUG [main] - Checking to see if class cn.yechen.crm.workbench.mapper.TranRemarkMapper matches criteria [is assignable to Object]
+DEBUG [main] - Opening JDBC Connection
+</system-out>
+  </testcase>
+  <testcase classname="Test01" name="test1" time="0.002"/>
+  <testcase classname="Test01" name="test2" time="0"/>
+</testsuite>

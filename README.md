@@ -1,7 +1,9 @@
 # crm
-crm客户管理系统，仿自动力节点
+
 
 ## CRM
+
+crm客户管理系统，仿自[动力节点](https://www.bilibili.com/video/BV1fT4y1E7a6?p=1)
 
 ### 系统设置模块 setting
 
